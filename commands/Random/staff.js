@@ -19,40 +19,4 @@ class punchCommand extends commando.Command {
     }
     async run(message, args)
      {
-         var stafflist = [""
-
-
-
-
-
-         ]
-
-                 var randomAnswer = stafflist[Math.floor(Math.random() * stafflist.length)];
-                 message.channel.send('Current Staff:  One - Owner, Two - Dev/CoFounder, Three - CoFounder');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-
-}
-
-
-
-module.exports = punchCommand;
+         var stafflist = ['Current Staff:  @One - Owner, @Two - Dev/CoFounder, @Three - CoFounder']
