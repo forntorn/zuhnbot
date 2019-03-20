@@ -17,8 +17,8 @@ const token = process.env.TOKEN;
 
 bot.on ('message', (message) => {
     
-        if(message.content == 'blob') {
-            message.reply('Blob... blob, he is just a blob. Simply leave him alone!');   
+        if(message.content == 'Two') {
+            message.reply('He is watching or playing very fun and cool games. So shut the FUCK up!');   
         }
     });
 
