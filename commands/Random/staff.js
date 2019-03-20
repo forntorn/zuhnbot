@@ -28,7 +28,7 @@ class punchCommand extends commando.Command {
          ]
 
                  var randomAnswer = stafflist[Math.floor(Math.random() * stafflist.length)];
-                 message.channel.send('Current Staff: blob - Owner, PowerTrans408 - Admin, Blazefury1218 - Admin');
+                 message.channel.send('Current Staff:  One - Owner, Two - Dev/CoFounder, Three - CoFounder');
 
 
 
